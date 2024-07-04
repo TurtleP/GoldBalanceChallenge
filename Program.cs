@@ -251,6 +251,8 @@ class Program
 
             foreach (var weight in weights)
                 Console.WriteLine($"  {weight.Text}");
+
+            Console.ReadLine();
         }
         catch (NoSuchElementException e)
         {
